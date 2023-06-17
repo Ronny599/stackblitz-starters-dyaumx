@@ -7,7 +7,7 @@ export default function Navbar() {
         <div className="container-fluid">
         <a className="navbar-brand" href="#">
             <img src="https://www.logodesign.net/logo/line-art-house-roof-and-buildings-4485ld.png" alt="Logo" width="100" height="70" className="d-inline-block align-text-top"/>
-            Bootstrap
+            Vuexy
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -30,9 +30,6 @@ export default function Navbar() {
                   <li><hr className="dropdown-divider"/></li>
                   <li><a className="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link disabled">Disabled</a>
               </li>
             </ul>
             <form className="d-flex" role="search">
