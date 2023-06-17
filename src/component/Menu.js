@@ -35,7 +35,7 @@ export default function Menu() {
             id="exampleCheck1"
           />
           <label className="form-check-label" htmlFor="exampleCheck1">
-            Check me out
+            Please check all the information as if information filled is incorrect you are going to be responsible for it.
           </label>
         </div>
         <button type="submit" className="btn btn-primary">
