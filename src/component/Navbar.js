@@ -16,10 +16,10 @@ export default function Navigate() {
                   Dashboard
                 </a>
                 <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="#">Action</a></li>
-                  <li><a className="dropdown-item" href="#">Another action</a></li>
+                  <li><a className="dropdown-item" href="#">Chart</a></li>
+                  <li><a className="dropdown-item" href="#">Graph</a></li>
                   <li><hr className="dropdown-divider"/></li>
-                  <li><a className="dropdown-item" href="#">Something else here</a></li>
+                  <li><a className="dropdown-item" href="#">AAHHH Shit! He's up again.</a></li>
                 </ul>
               </li>
             </ul>
