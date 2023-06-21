@@ -23,7 +23,7 @@ export default function Navigate() {
         color: "black",
         backgroundColor: "white"
       })
-      setBtnText("Enable Light Mode")
+      setBtnText("Enable Dark Mode")
     }
   }
   return (
