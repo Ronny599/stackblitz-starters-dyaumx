@@ -1,14 +1,14 @@
 import * as React from 'react';
 
 export default function Navigate() {
-  const {myStyle, setMyStyle}= useState({
+  const {myStyle, setMyStyle}= React.useState({
     // let myStyle={
     color: "black",
     backgroundColor: "white"
   // }
   })
 
-  const {btntext, setBtnText}= useState("Enable Dark Mode")
+  const {btntext, setBtnText}= React.useState("Enable Dark Mode")
 
   const toggleMode= ()=>{
     if(myStyle.color=="black"){
