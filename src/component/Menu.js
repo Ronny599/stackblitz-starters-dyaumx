@@ -13,9 +13,7 @@ export default function Menu() {
           <input
             type="email"
             className="form-control"
-            id="exampleInputEmail1"
             aria-describedby="emailHelp"
-            cols=""
           />
           <div id="emailHelp" className="form-text">
             We'll never share your email with anyone else.
