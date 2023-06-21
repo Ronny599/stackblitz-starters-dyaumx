@@ -4,7 +4,7 @@ import * as React from 'react';
 export default function Menu() {
   return (
     <>
-    <div className="container">
+    <div className="container col-sm-4">
       <form>
         <div className="m-3">
           <label htmlFor="exampleInputEmail1" className="form-label">
@@ -29,10 +29,6 @@ export default function Menu() {
             id="exampleInputPassword1"
           />
         </div>
-        <div class="m-3">
-  <label htmlFor="exampleFormControlTextarea1" className="form-label">Example textarea</label>
-  <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" cols="2"></textarea>
-</div>
         <div className="mb-3 ml-3 form-check">
           <input
             type="checkbox"
