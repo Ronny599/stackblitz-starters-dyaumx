@@ -7,7 +7,25 @@ export default function Navigate() {
     backgroundColor: "white"
   // }
   })
-  // function toggleMode
+
+  const {btntext, setBtnText}= useState("Enable Dark Mode")
+
+  const toggleMode= ()=>{
+    if(myStyle.color=="black"){
+      setMyStyle({
+        color: "white",
+        backgroundColor: "black"
+      })
+      setBtnText("Enable Light Mode")
+    }
+    else{
+      setMyStyle({
+        color: "black",
+        backgroundColor: "white"
+      })
+      setBtnText("Enable Light Mode")
+    }
+  }
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">        
@@ -73,7 +91,7 @@ export default function Navigate() {
                 htmlFor="flexSwitchCheckDefault"
                 onClick={toggleMode}
               >
-                Enable Dark Mode
+                {btntext}
               </label>
             </div>
           </div>
