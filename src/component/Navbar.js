@@ -1,12 +1,13 @@
 import * as React from 'react';
 
 export default function Navigate() {
-  // const {myStyle, setMyStyle}= useState({
-    let myStyle={
-    color: "white",
-    backgroundColor: "black"
-  }
-  // {)
+  const {myStyle, setMyStyle}= useState({
+    // let myStyle={
+    color: "black",
+    backgroundColor: "white"
+  // }
+  })
+  // function toggleMode
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">        
@@ -70,6 +71,7 @@ export default function Navigate() {
               <label
                 className="form-check-label"
                 htmlFor="flexSwitchCheckDefault"
+                onClick={toggleMode}
               >
                 Enable Dark Mode
               </label>
