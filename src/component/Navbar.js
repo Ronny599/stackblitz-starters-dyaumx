@@ -51,7 +51,6 @@ export default function Navigate() {
                     </a>
                   </li>
                   <li>
-                    <hr className="dropdown-divider" />
                   </li>
                   <li>
                     <a className="dropdown-item" href="#" style={myStyle}>
