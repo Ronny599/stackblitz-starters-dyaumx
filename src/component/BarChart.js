@@ -2,7 +2,7 @@
 
 import * as d3 from 'd3';
 
-const design ={
+let design ={
   width:'500',
   height:'500'
 }

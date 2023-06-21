@@ -73,6 +73,7 @@ const data = [
   return (
   <>
     <Navbar />
+    {/* <hr/> */}
     <Navigate/>
     {/* <div className="container-fluid, mx-3"> */}
     <Menu/>
