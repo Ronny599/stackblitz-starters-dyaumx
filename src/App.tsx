@@ -74,7 +74,9 @@ const data = [
   <>
     <Navbar />
     <Navigate/>
+    {/* <div className="container-fluid, mx-3"> */}
     <Menu/>
+    {/* </div> */}
     <About/>
     <BarChart data={data} />
     </>
