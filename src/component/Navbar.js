@@ -1,10 +1,16 @@
 import * as React from 'react';
 
 export default function Navigate() {
+  // const {myStyle, setMyStyle}= useState({
+    let myStyle={
+    color: "white",
+    backgroundColor: "black"
+  }
+  // {)
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">        
-        <div className="container-fluid">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary" style={myStyle}>        
+        <div className="container-fluid" style={myStyle}>
           <a className="navbar-brand" href="#">
             Dashboard
           </a>
