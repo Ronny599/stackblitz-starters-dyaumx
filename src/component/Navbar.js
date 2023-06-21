@@ -11,7 +11,7 @@ export default function Navigate() {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">        
         <div className="container-fluid" style={myStyle}>
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="#" style={myStyle}>
             Dashboard
           </a>
           <button
@@ -22,6 +22,7 @@ export default function Navigate() {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            style={myStyle}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -34,17 +35,18 @@ export default function Navigate() {
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
+                  style={myStyle}
                 >
                   Dashboard
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#" style={myStyle}>
                       Chart
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#" style={myStyle}>
                       Graph
                     </a>
                   </li>
@@ -52,7 +54,7 @@ export default function Navigate() {
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#" style={myStyle}>
                       AAHHH Shit! He's up again.
                     </a>
                   </li>
