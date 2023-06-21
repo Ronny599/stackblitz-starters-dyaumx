@@ -1,14 +1,14 @@
 import * as React from 'react';
 
 export default function Navigate() {
-  const {myStyle, setMyStyle}= React.useState({
+  const [myStyle, setMyStyle]= React.useState({
     // let myStyle={
     color: "black",
     backgroundColor: "white"
   // }
   })
 
-  const {btntext, setBtnText}= React.useState("Enable Dark Mode")
+  const [btnText, setBtnText]= React.useState("Enable Dark Mode")
 
   const toggleMode= ()=>{
     if(myStyle.color=="black"){
@@ -85,13 +85,13 @@ export default function Navigate() {
                 type="checkbox"
                 role="switch"
                 id="flexSwitchCheckDefault"
+                onClick={toggleMode}
               />
               <label
                 className="form-check-label"
                 htmlFor="flexSwitchCheckDefault"
-                onClick={toggleMode}
               >
-                {btntext}
+                {btnText}
               </label>
             </div>
           </div>
