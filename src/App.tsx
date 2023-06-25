@@ -7,14 +7,14 @@ import Navigate from './component/Navbar';
 import BarChart from './component/BarChart';
 
 export default function App() {
-  const [mode, setMode]= React.useState('light'); 
+  const [mode, setMode]= React.useState('dark'); 
 
   const toggleMode = ()=>{
     if(mode==='light'){
-      setMode='dark'
+      setMode("dark")
     }
     else{
-      setMode='light'
+      setMode("light")
     }
   }
 
