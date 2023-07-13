@@ -11,10 +11,10 @@ export default function App() {
 
   const toggleMode = ()=>{
     if(mode==='light'){
-      setMode("dark")
+      setMode('dark')
     }
     else{
-      setMode("light")
+      setMode('light')
     }
   }
 
