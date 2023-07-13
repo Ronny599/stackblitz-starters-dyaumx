@@ -9,14 +9,14 @@ import BarChart from './component/BarChart';
 export default function App() {
   const [mode, setMode]= React.useState('dark'); 
 
-  const toggleMode = ()=>{
-    if(mode==='light'){
-      setMode('dark')
-    }
-    else{
-      setMode('light')
-    }
-  }
+  // const toggleMode = ()=>{
+  //   if(mode==='light'){
+  //     setMode('dark')
+  //   }
+  //   else{
+  //     setMode('light')
+  //   }
+  // }
 
 // const data = [
 
@@ -85,7 +85,7 @@ export default function App() {
   <>
     <Navbar />
     {/* <hr/> */}
-    <Navigate mode={mode} toggleMode={toggleMode}/>
+    <Navigate theme={mode}/>
     {/* <div className="container-fluid, mx-3"> */}
     <Menu/>
     {/* </div> */}
