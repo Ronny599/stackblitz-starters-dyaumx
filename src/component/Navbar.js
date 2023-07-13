@@ -91,7 +91,7 @@ export default function Navigate(props) {
                 className="form-check-label"
                 htmlFor="flexSwitchCheckDefault"
               >
-                Enable Dark Mode
+                xyz
                 {/* {btnText} */}
               </label>
             </div>
