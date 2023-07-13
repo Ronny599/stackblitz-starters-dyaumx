@@ -1,7 +1,7 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 
-export default function Navigate(props) {
+export default function Navigate({theme}) {
   // const [myStyle, setMyStyle]= React.useState({
   //   // let myStyle={
   //   color: "black",
@@ -29,7 +29,7 @@ export default function Navigate(props) {
   // }
   return (
     <>
-      <nav className={'navbar navbar-expand-lg navbar-{props.theme} bg-{props.theme}'}>        
+      <nav className={'navbar navbar-expand-lg navbar-${theme} bg-${theme}'}>        
         <div className="container-fluid" /*style={myStyle}*/>
           <a className="navbar-brand" href="#" /*style={myStyle}*/>
             Dashboard
